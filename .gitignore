@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# uv / venv
+.venv/
+
+# Ruff
+.ruff_cache/
+
+# データファイル（コミット不要）
+data/*
+!data/README.md
+
+# macOS
+.DS_Store
+
+# Claude Code
+.claude/
